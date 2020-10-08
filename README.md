@@ -1,8 +1,8 @@
-there is compiled class on master branch , you can easily run it by
+there is compiled class on master branch ,first you must on linux since windows dosn't have SIGTERM , you can easily run it by
 
 ### $java Test
 
-absolutely you must have JRE installed ,
+absolutely you must have JRE 11 installed ,
 this program will first print it's own PID ,
 you should use this PID for $kill in another shell as:
 ### $kill -s TERM {PID}
